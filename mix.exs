@@ -18,7 +18,7 @@ defmodule PhoenixTrello.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {PhoenixTrello, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :gettext,
+     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :gettext, :comeonin,
                     :phoenix_ecto, :postgrex]]
   end
 
@@ -36,6 +36,7 @@ defmodule PhoenixTrello.Mixfile do
      {:phoenix_html, "~> 2.4"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.9"},
+     {:comeonin, "~> 2.0"},
      {:cowboy, "~> 1.0"}]
   end
 

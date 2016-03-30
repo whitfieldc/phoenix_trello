@@ -26197,7 +26197,7 @@
 
 	var _invariant2 = _interopRequireDefault(_invariant);
 
-	var _routes = __webpack_require__(252);
+	var _routes = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../routes\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	var _routes2 = _interopRequireDefault(_routes);
 
@@ -26920,38 +26920,6 @@
 	    return targetComponent;
 	};
 
-
-/***/ },
-/* 252 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _reactRouter = __webpack_require__(164);
-
-	var _react = __webpack_require__(6);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _main = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../layouts/main\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-
-	var _main2 = _interopRequireDefault(_main);
-
-	var _new = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../views/registrations/new\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-
-	var _new2 = _interopRequireDefault(_new);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.default = _react2.default.createElement(
-	  _reactRouter.Route,
-	  { component: _main2.default },
-	  _react2.default.createElement(_reactRouter.Route, { path: '/', component: _new2.default })
-	);
 
 /***/ }
 /******/ ]);
